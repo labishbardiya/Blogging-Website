@@ -1,0 +1,75 @@
+body {
+    background-image: url('/Blogging-Website/img/back1.jpg');
+    background-attachment: fixed;
+    color: aliceblue;
+}
+
+.navbar-brand {
+    padding: 0;
+    margin-top: 4px;
+}
+
+.navbar-brand .logo {
+    height: 48px;
+}
+
+.gradient {
+    background: linear-gradient(90deg, #7248fc, #af56fc, #2f64fc, #90bcfc);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 600;
+}
+
+.btn-warning {
+    transition: all 0.3s ease-in-out; /* Smooth transition effect */
+}
+
+.btn-warning:hover {
+    background-color: transparent; /* Slightly darker shade */
+    border-color: #c69500; /* Slightly darker border */
+    color: white !important;
+    transform: scale(1.05); /* Slightly enlarge the button */
+}
+
+.blog-background {
+    color: white;
+}
+
+/* Apply hover effect to all the blog cards */
+.blog-card {
+    transition: transform 0.3s ease-in-out;
+}
+
+.blog-card:hover {
+    transform: scale(1.05); /* Slight size increase on hover */
+    cursor: pointer; /* Change cursor to pointer */
+}
+
+.blog-card .card-footer .btn {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: black;
+}
+
+.blog-card .card-footer .btn:hover {
+    background-color: #f39c12; /* Darker yellow for hover effect */
+    color: white;
+}
+
+.update {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lead_update {
+    margin: 60px 0;
+    padding: 20px 0;
+    font-size: large;
+    background: linear-gradient(90deg, #7248fc, #af56fc, #2f64fc, #90bcfc);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    width: 90%;
+}
